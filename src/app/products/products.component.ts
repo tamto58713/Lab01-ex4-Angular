@@ -14,6 +14,7 @@ export class ProductsComponent implements OnInit {
   changeStatus() {
     this.visibleImage = !this.visibleImage;
   }
+  searchText;
   visibleImage = true;
   listProducts = [
     {
