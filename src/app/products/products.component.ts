@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { RatingModule } from 'ng-starrating';
 @Component({
   selector: 'app-products',
   templateUrl: './products.component.html',
@@ -11,7 +11,10 @@ export class ProductsComponent implements OnInit {
 
   ngOnInit() {
   }
-  test="Testing"
+  changeStatus() {
+    this.visibleImage = !this.visibleImage;
+  }
+  visibleImage = true;
   listProducts = [
     {
       id: 1,
@@ -19,7 +22,7 @@ export class ProductsComponent implements OnInit {
       code: "GDN-0011",
       available: "Mar 19, 2016",
       price: "19.95",
-      starRating: "0.62",
+      starRating: "0.61",
       imageURL: "../assets/images/leaf-rake.jpg"
     },
     {
@@ -28,7 +31,7 @@ export class ProductsComponent implements OnInit {
       code: "GDN-0023",
       available: "Mar 18, 2016",
       price: "32.99",
-      starRating: "0.81",
+      starRating: "0.801",
       imageURL: "../assets/images/garden-cart.jpg"
     },
     {
