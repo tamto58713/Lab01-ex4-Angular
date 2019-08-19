@@ -3,11 +3,11 @@
     <div class="card-header bg-primary">Header</div>
         <div class="card-body">
             <form action="" class="form-inline">
-                <label for="">Filter by:</label>
-                <input type="text" class="form-control ml-5" name="filter">
+                <label for="filter" ng-model="searchText">Filter by:</label>
+                <input type="text" class="form-control ml-5" name="filter" id="filter" [(ngModel)]="searchText">
             </form>
 
-            <table class="table mt-5">
+            <table class="table mt-5" id="searchTextResults">
                 <thead class="text-primary table-borderless">
                     <th><button class="btn btn-primary" (click)="changeStatus()">{{visibleImage ? "Hide Image":"Show Image"}}</button></th>
                     <th>Product</th>
@@ -17,14 +17,14 @@
                     <th>5 Star Rating</th>
                 </thead>
                 <tbody>
-                    <tr *ngFor="let product of listProducts">
+                    <tr *ngFor="let product of listProducts | filter:searchText">
                         <td>
                             <img *ngIf="visibleImage" [src]="product.imageURL" alt="" width="40px" height="40px">
                         </td>
                         <td>{{product.productName}}</td>
                         <td>{{product.code}}</td>
                         <td>{{product.available}}</td>
-                        <td>{{product.price}}</td>
+                        <td>{{product.price | currency}}</td>
                         <td>
                             <div style="text-align:center">
                                 <star-rating [value]="product.starRating*5" checkedcolor="black" uncheckedcolor="white" size="24px"></star-rating>

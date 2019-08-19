@@ -8,7 +8,7 @@ import { RatingModule } from 'ng-starrating';
 export class ProductsComponent implements OnInit {
 
   constructor() { }
-
+  
   ngOnInit() {
   }
   changeStatus() {
