@@ -1,27 +1,24 @@
 # Lap01
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Use can try it  
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://lap01-angular.herokuapp.com)
+## Getting Started   
+### Prequisites
+You need git to clone the `Lap01` respository. You can get git it from [here][git] .
+You must have NodeJs and its package manager (npm) installed. You can get them from [here][node].
+### Clone `Lap01`
+Clone the `Lap01` respository using git: 
+```
+git clone https://github.com/tamto58713/Lap01-Angular.git
+cd Lap01
+```
+### Install Dependencies
+```
+npm install
+```
+### Run the Application
+```
+npm start
+```
+### Author
+Tam To Tran
+Email: tamtotran5667@gmail.com
