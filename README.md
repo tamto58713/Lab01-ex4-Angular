@@ -9,7 +9,7 @@ You must have NodeJs and its package manager (npm) installed. You can get them f
 Clone the `Lap01` respository using git: 
 ```
 git clone https://github.com/tamto58713/Lap01-Angular.git
-cd Lap01
+cd Lap01-Angular
 ```
 ### Install Dependencies
 ```
@@ -19,6 +19,8 @@ npm install
 ```
 npm start
 ```
+Go to your browser and type http://localhost:3000/. You can now see that app is up and running.
+
 ### Author
 Tam To Tran  
 Email: tamtotran5667@gmail.com
