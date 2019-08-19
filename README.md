@@ -19,7 +19,7 @@ npm install
 ```
 npm start
 ```
-Go to your browser and type http://localhost:3000/. You can now see that app is up and running.
+Go to your browser and type http://localhost:8080/. You can now see that app is up and running.
 
 ### Author
 Tam To Tran  
