@@ -1,5 +1,5 @@
 # Lap01
-Use can try it  
+You can try it  
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://lap01-angular.herokuapp.com)
 ## Getting Started   
 ### Prequisites
