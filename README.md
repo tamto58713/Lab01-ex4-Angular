@@ -6,7 +6,7 @@ You can try it
 You need git to clone the `Lap01-Angular` respository. You can get git from [here](https://github.com/tamto58713/Lap01-Angular.git).  
 You must have NodeJs and its package manager (npm) installed. You can get them from [here](https://nodejs.org).
 ### Clone `Lap01-Angular`
-Clone the `Lap01` respository using git: 
+Clone the `Lap01-Angular` respository using git: 
 ```
 git clone https://github.com/tamto58713/Lap01-Angular.git
 cd Lap01-Angular
