@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "dev": "ng serve -o",
     "start": "node server.js",
-    "build": "ng build",  
+    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -52,6 +53,5 @@
   "engines": {
     "node": "12.8.1",
     "npm": "6.10.2"
-
   }
 }
