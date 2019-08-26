@@ -1,15 +1,15 @@
-# Lab01-Angular
+# Lab01-ex4-Angular
 You can try it  
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://lap01-angular.herokuapp.com)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://lab01-ex4-angular.herokuapp.com/)
 ## Getting Started   
 ### Prequisites
-You need git to clone the `Lab01-Angular` respository. You can get git from [here](https://github.com/tamto58713/Lap01-Angular.git).  
+You need git to clone the `Lab01-ex4-Angular` respository. You can get git from [here](https://github.com/tamto58713/Lab01-ex4-Angular.git).  
 You must have NodeJs and its package manager (npm) installed. You can get them from [here](https://nodejs.org).
-### Clone `Lab01-Angular`
-Clone the `Lab01-Angular` respository using git: 
+### Clone `Lab01-ex4-Angular`
+Clone the `Lab01-ex4-Angular` respository using git: 
 ```
-git clone https://github.com/tamto58713/Lab01-Angular.git
-cd Lab01-Angular
+git clone https://github.com/tamto58713/Lab01-ex4-Angular.git
+cd Lab01-ex4-Angular
 ```
 ### Install Dependencies
 ```
