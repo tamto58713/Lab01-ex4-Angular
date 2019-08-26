@@ -10,7 +10,7 @@ import { products } from '../products';
 export class DetailProductComponent implements OnInit {
 
   constructor(private route: ActivatedRoute,) { }
-  product = {};
+  product;
   ngOnInit() {
     this.route.paramMap.subscribe(params => {
       const id = parseInt(params.get('productId'))
