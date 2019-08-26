@@ -19,11 +19,16 @@
                 <tbody>
                     <tr *ngFor="let product of listProducts | filter:searchText">
                         <td>
-                            <img *ngIf="visibleImage" [src]="product.imageURL" alt="" width="40px" height="40px">
+                            <img *ngIf="visibleImage" [src]="product.imageUrl" alt="" width="40px" height="40px">
                         </td>
-                        <td>{{product.productName}}</td>
+                        <td>
+                            <a [title]="product.productName + ' details'" [routerLink]="['/products', product.productId]">
+                                {{product.productName}}
+                            </a>
+                            
+                        </td>
                         <td>{{product.code}}</td>
-                        <td>{{product.available}}</td>
+                        <td>{{product.releaseDate}}</td>
                         <td>{{product.price | currency}}</td>
                         <td>
                             <div style="text-align:center">

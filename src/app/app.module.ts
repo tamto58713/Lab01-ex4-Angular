@@ -7,6 +7,7 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { AppComponent } from './app.component';
 import { ProductsComponent } from './products/products.component';
 import { DetailProductComponent } from './detail-product/detail-product.component';
+import { RouterModule } from '@angular/router'
 
 @NgModule({
   declarations: [
@@ -18,7 +19,11 @@ import { DetailProductComponent } from './detail-product/detail-product.componen
     BrowserModule,
     RatingModule,
     Ng2SearchPipeModule,
-    FormsModule 
+    FormsModule,
+    RouterModule.forRoot([
+      { path: '', component: ProductsComponent },
+      { path: 'products/:productId', component: DetailProductComponent },
+    ]) 
   ],
   providers: [],
   bootstrap: [AppComponent]
